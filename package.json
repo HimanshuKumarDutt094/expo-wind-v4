@@ -1,6 +1,6 @@
 {
   "name": "expo-wind-v4",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A script to auto setup expo with nativewind v4 and a simple auth context provider using async storage.",
   "main": "index.js",
   "bin": {
