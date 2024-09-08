@@ -45,7 +45,7 @@ function installNativeWind(projectName) {
     process.chdir(projectPath);
   }
 
-  runCommand('yarn add nativewind@^4.0.1 react-native-reanimated tailwindcss @react-native-async-storage/async-storage');
+  runCommand('yarn add nativewind@^4.0.1 tailwindcss @react-native-async-storage/async-storage');
 
 }
 
@@ -431,7 +431,6 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <AuthenticationContext>
         <Stack>
-          <Stack.Screen name="index" options={{ headerShown: false }} />
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
           <Stack.Screen name="+not-found" />
         </Stack>
