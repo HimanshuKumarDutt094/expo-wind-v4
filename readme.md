@@ -2,25 +2,29 @@
 
 <img width="25" style='' alt="expo" src="./assets/client.png"> X ![NativeWind Logo](https://www.nativewind.dev/img/logo.svg)
 
-Welcome to the integration of Expo and NativeWind v4! This guide will help you set up a new Expo project with NativeWind for Tailwind CSS styling. NativeWind v4 is a powerful utility-first CSS framework that brings the full Tailwind experience to React Native.
-
+Hi this is my small script to setup your expo 51 default app with nativewind v4. I also added a simple auth context in it for usage with AsyncStorage (locahost equivalent)
+if you have any quetions you can send then to me at : <a href="mailto:adasimobenio@gmail.com"> my email</a>
 ## Features
 
-- **Seamless integration** with Expo and React Native
-- **Utility-first styling** with Tailwind CSS
-- **TypeScript support** for better development experience
-- **Responsive design** support out-of-the-box
+- **expo sdk 51 with expo-router** 
+- **latest nativewind v4 for tailwnd intigration (need to run pod install for ios)** 
+- **A simple auth context to make your login signup ready to go**
 
 ## Getting Started
 
-To get started with Expo and NativeWind v4, follow these steps:
 
-### 1. Create a New Expo Project
-
-Run the following command to create a new Expo project using Yarn:
+#### 1.Run the following command to create a new Expo project using yarn | npx | pnpx:
 
 
 
 ```bash
-yarn create expo-app test-project
+yarn add expo-wind-v4 my-project
+```
+
+```bash
+npx  expo-wind-v4 my-project
+```
+
+```bash
+pnpx expo-wind-v4 my-project
 ```
