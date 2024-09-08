@@ -1,0 +1,19 @@
+{
+  "name": "expo-wind-v4",
+  "version": "1.0.0",
+  "description": "A script to auto setup expo with nativewind v4 and a simple auth context provider using async storage.",
+  "main": "index.js",
+  "bin": {
+    "expo-wind-v4": "./index.js"
+  },
+  "scripts": {
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HimanshuKumarDutt094/expo-wind-v4.git"
+  },
+  "author": "Himanshu Kumar Dutt",
+  "license": "MIT",
+  "private": false
+}
