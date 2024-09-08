@@ -6,9 +6,7 @@
   "bin": {
     "expo-wind-v4": "./index.js"
   },
-  "scripts": {
-    "prepare": "yarn build"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HimanshuKumarDutt094/expo-wind-v4.git"
